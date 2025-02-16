@@ -5,16 +5,29 @@
 }
 
 .cube {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     border: 1px solid black;
+    box-sizing:border-box;
+    color: white;
+    font-size: small;
+    padding: 5px;
+}
+.center {
+    text-align: center;
+}
+.cube h2 {
+    margin-top: -10px;
+}
+.second-num {
+    font-size: small;
 }
 
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 h1 {
@@ -28,12 +41,12 @@ h1 {
     background-color: rgb(246, 3, 3);
 }
 .first .second-col {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .second {
     display: flex;
-    margin-top: 150px;
+    margin-top: 210px;
 }
 .second div {
     background-color: green;
@@ -41,13 +54,13 @@ h1 {
 
 .third {
     display: flex;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 .third div {
     background-color: blue;
 }
 .third .seven-col {
-    margin-top: -50px;
+    margin-top: -70px;
 }
 
 
